@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+nav {
+    height: 102px;
+    background-color: blue;
+
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.home-image-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.home-image {
+    min-width: 900px;
+    max-width: 1310px;
+}
